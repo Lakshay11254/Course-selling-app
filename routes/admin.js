@@ -18,3 +18,7 @@ const adminRouter = Router();
             message: "courses endpoint"
         })
     })
+
+    module.exports = {
+        adminRouter: adminRouter
+}
